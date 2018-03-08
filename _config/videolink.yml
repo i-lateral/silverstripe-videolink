@@ -1,0 +1,6 @@
+---
+Name: videolinkconfig
+---
+SilverStripe\Core\Injector\Injector:
+  VideoLink:
+    class: ilateral\SilverStripe\VideoLink\ORM\FieldType\DBVideoLink

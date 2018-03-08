@@ -1,0 +1,30 @@
+{
+  "name": "i-lateral/silverstripe-videolink",
+  "description": "Adds a DB field for automatically embedding videos",
+    "type": "silverstripe-vendormodule",
+    "homepage": "https://github.com/i-lateral/silverstripe-videolink",
+    "keywords": [
+        "silverstripe",
+        "users",
+        "account",
+        "registration"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mark Anderson",
+            "email": "mark@i-lateral.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/i-lateral/silverstripe-videolink/issues"
+    },
+    "require": {
+        "silverstripe/framework": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ilateral\\SilverStripe\\VideoLink\\": "src/"
+        }
+    }
+}
